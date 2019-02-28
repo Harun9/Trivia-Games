@@ -1,0 +1,91 @@
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: 500px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.parallax-container {
+  height: 1010px;
+  padding-bottom: 100px;
+}
+
+#header {
+  color: red;
+  font-family: 'Monoton', cursive;
+  font-size: 100px;
+  font-style: italic;
+}
+
+#parall {
+  background-color: darkgoldenrod;
+  height: 900px;
+  width: 90%;
+  height: 50%;
+}
+
+#introCard {
+  color: white;
+  font-size: 30px;
+  margin: 30px 0;
+  background-color: transparent;
+}
+
+#introSection {
+  margin-top: 40px;
+}
+
+.btn-large {
+  border-radius: 6px;
+  border: #fff 4px solid;
+  line-height: 45px;
+  color: rgb(196, 8, 8);
+  background-color: transparent;
+}
+
+.btn-large:hover {
+  color: red;
+  border: black 4px solid;
+}
+
+#questionSpace {
+  color: white;
+  margin-top: 30px;
+  padding: 10px;
+  width: 1000px;
+  height: 500px;
+}
+
+#question {
+  font-size: 30px;
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#timer {
+  color: darkblue;
+  font-size: 50px;
+}
+
+#choices {
+  font-style: oblique;
+  font-size: 25px;
+}
+
+.pickAnswer {
+  border: solid 5px #fff;
+}
+
+.pickAnswer,
+.pickAnswer:hover {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.pickAnswer:hover {
+  border: solid 5px darkolivegreen;
+  cursor: pointer;
+}
