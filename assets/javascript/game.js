@@ -32,7 +32,7 @@ $(document).ready(function () {
         $('.pickAnswer').click(function () {
             $(this).data('clicked', true);
         });
-        var i = 25;
+        var i = 20;
         var intervals = setInterval(function () {
 
             if (i < 10) {
@@ -52,7 +52,7 @@ $(document).ready(function () {
                 clearInterval(intervals);
                 questionIndex++;
                 $('#timer').effect("pulsate", {
-                    times: 25
+                    times: 20
                 }, 1000 * 5);
                 i = 20;
                 showQuestion(questionIndex);
